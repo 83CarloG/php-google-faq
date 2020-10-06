@@ -6,7 +6,7 @@ Concetratevi prima sulla parte logica e poi potete dedicarvi alla parte "grafica
  -->
 <?php
 	$capitoli = [
-		'Introduzione', 'Norme sulla privacy', 'Termini di servizio', 'Tecnologie', 'Domande frequenti'
+		'Introduzione', 'Norme sulla privacy', 'Termini di servizio', 'Tecnologie', 'Domande frequenti', 'Account Google'
 	];
 	$faqs = [
 		[
@@ -55,7 +55,8 @@ Concetratevi prima sulla parte logica e poi potete dedicarvi alla parte "grafica
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+		<link rel="stylesheet" href="style.css">
 		<title>php-google-faq</title>
 	</head>
 	<body>
@@ -89,18 +90,6 @@ Concetratevi prima sulla parte logica e poi potete dedicarvi alla parte "grafica
 				</ul>
 			</nav>
 			<!-- /Nav -->
-			<!-- Mobile -->
-			<nav class="menu-mobile">
-				<div class="bars">
-					<i class="fas fa-bars"></i>
-				</div>
-				<div class="logo-mobile">
-					<a href="#" class="logo-mobile__link">
-						<img src="img/logo_painter.png" alt="logo" class="logo-mobile__img">
-					</a>
-				</div>
-			</nav>
-			<!-- /Mobile -->
 		</header>
 		<!-- /Header -->
 		<!-- Main -->
