@@ -92,6 +92,7 @@ a {
 .container {
 	max-width: 1042px;
 	margin: 0 auto;
+	margin-top: 96px;
 	padding: 32px;
 	display: flex;
 }
@@ -106,7 +107,7 @@ a {
 	list-style: none;
 }
 .qea__item {
-	min-width: 400px;
+	min-width: 360px;
 	padding: 10px 5px;
 }
 .qea__risposta{
@@ -125,6 +126,9 @@ a {
 @media screen and (max-width: 1250px) {
 	.container {
 		padding: 5px;
+	}
+	.header {
+		padding: 20px 15px 0;
 	}
 	.bottom-header {
 		display: none;
